@@ -24,3 +24,6 @@ let number = 6;
 
 let number = 25;
 (number < 18) ? console.log('too young') : (number >=18 && number < 21) ? console.log(' you can vote') : (number >=21 && number < 25) ? console.log('you can drink') : console.log('rent a car')
+
+
+let FB =x;
