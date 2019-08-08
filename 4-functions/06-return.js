@@ -54,7 +54,7 @@ console.log(newName);
 
 
 let amount = () => {
-    return 1.15*bill-bill
+    return tipPer*bill-bill
 };
 
 let bill = 5;
@@ -62,3 +62,31 @@ let tipPer =1.15
 let tip = amount()
 
 console.log(tip);
+
+let count = 0;
+for ( ;  count < 9; ++count ) {
+  console.log(count);
+}
+
+function loop(){
+for(;i<=100; i += 1)
+return i;
+}
+let i = 0;
+loop()
+
+switch (true) {
+  case (i % 5 == 0 && i % 3 == 0) :
+    console.log('fizz buzz');
+    break;
+
+  case (i % 3 == 0) :
+      console.log('fizz');
+    break;
+
+  case (i % 5 == 0) :
+      console.log('buzz');
+    break;
+      
+  default : console.log(i);
+}

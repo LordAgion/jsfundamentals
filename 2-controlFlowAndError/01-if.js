@@ -21,3 +21,12 @@ let weather = 5;
 if (weather < 70) {
     console.log( 'wear a jacket')
 };
+
+function whatDoesItDo(color) {    
+    if (color !== 'blue' || color !== 'green') {
+       color = 'red';
+    }
+    return color;
+ }; 
+ 
+ console.log(whatDoesItDo());
