@@ -90,3 +90,14 @@ switch (true) {
       
   default : console.log(i);
 }
+
+
+
+let i = 0;
+function loop(){
+for(;i<=10; i += 1)
+console.log(i);
+
+}
+
+loop()

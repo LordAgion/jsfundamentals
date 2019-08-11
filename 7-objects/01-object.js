@@ -39,4 +39,17 @@ console.log(netflix.season1.seasonInfo.episodeInfo[0].episode, netflix.season1.s
 
   
   
+let movie = {
+  nameOfMovie: 'greatMovie',
+    runTime: 'hours2',
+    characters: [
+      char = {name: 'lead', age: 'x', items: 'plotDevice'},
+      char2 = {name: 'support', age: 'y', items: 'redHerring'},
+    ],
+    genre: 'bestGenre',
+  
+};
+
+console.log(movie.nameOfMovie+"\n", movie.runTime+"\n", movie.characters, "\n", movie.characters[0].name+"\n", movie.characters[0].items+"\n" );
+
   

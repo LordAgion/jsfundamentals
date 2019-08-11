@@ -20,3 +20,5 @@ let movie = ['one', 'two', 'three'];
 movie.push('four');
 movie.splice(1,1, 'movie2');
 movie.forEach(f => {console.log(f)});
+
+// write your code here

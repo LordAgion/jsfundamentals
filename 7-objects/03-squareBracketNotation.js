@@ -18,6 +18,13 @@ baking ['zucchini'] = 'better make some bread'; // we can also set a value pair 
 console.log(baking[garden['vegetable']]); //'better make some bread'
 
   
-  
-  
+let garden = {
+    vegetable: 'zucchini',
+    flower: 'sun flower',
+    fruit: 'grape',
+    "water": true,
+    sun: true,
+    size: 10
+  };  
+
   
