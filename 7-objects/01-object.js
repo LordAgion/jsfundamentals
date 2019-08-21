@@ -52,4 +52,3 @@ let movie = {
 
 console.log(movie.nameOfMovie+"\n", movie.runTime+"\n", movie.characters, "\n", movie.characters[0].name+"\n", movie.characters[0].items+"\n" );
 
-  

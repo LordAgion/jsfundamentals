@@ -29,4 +29,4 @@ function whatDoesItDo(color) {
     return color;
  }; 
  
- console.log(whatDoesItDo());
+ console.log(whatDoesItDo()); 
